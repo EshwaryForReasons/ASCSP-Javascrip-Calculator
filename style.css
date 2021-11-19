@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main {
+    height: 50vh;
+    width: 30vw;
+}
+
+button {
+    border: none;
+    height: 10vh;
+    width: 5vw;
+
+    background-color: #cfcfcf;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #969696;
+}
+
+.button-pad {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
